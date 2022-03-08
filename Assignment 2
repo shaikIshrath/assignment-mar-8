@@ -1,0 +1,6 @@
+s1="Hello"
+s2="World"
+print ("Str1:",s1)
+print ("Str 2:",s2)
+str=s1+s2
+print(str)      

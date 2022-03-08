@@ -1,0 +1,14 @@
+x=input('enter the word:')
+x=x.lower()
+print(x)
+l=list(x)
+count=0
+v=0
+for i in l:
+    if (i in ('a','e','i','o','u')):
+        v=v+1
+    elif (i>='a'and i<='z'):  
+        count= count+1
+print(count)
+
+
